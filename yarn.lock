@@ -2,91 +2,91 @@
 # yarn lockfile v1
 
 
-"@liskhq/lisk-api-client@^5.0.0-debug.3":
-  version "5.0.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-api-client/-/lisk-api-client-5.0.0-debug.3.tgz#26f978591054989254b3fd80ee018aa0f0a977bb"
-  integrity sha512-ORxt46q8jdEGKi8wBJLpqnFBZ6bnIFxyjVjDbZPFxzmoHAFW+4FUpnjIp/GkL0fh1jimhq28EudXV+LWESycHw==
+"@liskhq/lisk-api-client@^5.0.1-alpha.0":
+  version "5.0.1-alpha.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-api-client/-/lisk-api-client-5.0.1-alpha.0.tgz#c7f5a797e6aa3c8e64ea334a924f6924ffb95207"
+  integrity sha512-zRTfmYyyy9b5Y0L1ijdeC3/6Sh05uPuA/y7zdHGz4hQTWsiNAnvggBsgKqA54PEKGPgjajHQmwcFXFLnBoq38g==
   dependencies:
-    "@liskhq/lisk-codec" "^0.1.0-debug.3"
-    "@liskhq/lisk-cryptography" "^3.0.0-debug.3"
-    "@liskhq/lisk-transactions" "^5.0.0-debug.3"
+    "@liskhq/lisk-codec" "^0.1.0"
+    "@liskhq/lisk-cryptography" "^3.0.0"
+    "@liskhq/lisk-transactions" "^5.0.0"
     isomorphic-ws "4.0.1"
     pm2-axon "4.0.0"
     pm2-axon-rpc "0.6.0"
     ws "7.4.0"
 
-"@liskhq/lisk-client@^5.0.0-debug.3":
-  version "5.0.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-client/-/lisk-client-5.0.0-debug.3.tgz#83f80ad5822fde4e9476a1c223c1101ac0e02d32"
-  integrity sha512-jgiPwvCGFqoplHrZtnC8eUJcDqZvlbF9tCP+JcGLskR8if5tsC+OuxUcHH7wnWC+IYBIUtgV/vp8ZwjnuRHRAQ==
+"@liskhq/lisk-client@^5.0.1-alpha.0":
+  version "5.0.1-alpha.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-client/-/lisk-client-5.0.1-alpha.0.tgz#4a2ae6a27407f4a407c0e0e4486c8ed6b67610a2"
+  integrity sha512-VK3QwOsvDnttPVKGcmzh8Bp7NyXjiylPwQn48ufiFs8bLk4uwtySxTfmlmn/Xgt5FdLBxq0RPsGa8OHj2Yutuw==
   dependencies:
-    "@liskhq/lisk-api-client" "^5.0.0-debug.3"
-    "@liskhq/lisk-codec" "^0.1.0-debug.3"
-    "@liskhq/lisk-cryptography" "^3.0.0-debug.3"
-    "@liskhq/lisk-passphrase" "^3.0.1-alpha.0"
-    "@liskhq/lisk-transactions" "^5.0.0-debug.3"
-    "@liskhq/lisk-tree" "^0.1.0-alpha.0"
-    "@liskhq/lisk-utils" "^0.1.0-debug.3"
-    "@liskhq/lisk-validator" "^0.5.0-debug.3"
-    buffer liskHQ/buffer#4d498e6
+    "@liskhq/lisk-api-client" "^5.0.1-alpha.0"
+    "@liskhq/lisk-codec" "^0.1.0"
+    "@liskhq/lisk-cryptography" "^3.0.0"
+    "@liskhq/lisk-passphrase" "^3.0.1"
+    "@liskhq/lisk-transactions" "^5.0.0"
+    "@liskhq/lisk-tree" "^0.1.0"
+    "@liskhq/lisk-utils" "^0.1.0"
+    "@liskhq/lisk-validator" "^0.5.0"
+    buffer "6.0.3"
 
-"@liskhq/lisk-codec@^0.1.0-debug.3":
-  version "0.1.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-codec/-/lisk-codec-0.1.0-debug.3.tgz#6329adfe5973362b0c782b34bf8446225e16b779"
-  integrity sha512-mTBHL/cNrtCoRXPQvfUUIRSWcvP9zGFPnX2TFFepamuggWFxuzDnNwn+KLmztkVF2fRWo4Q9H/SNH4q3BxXugQ==
+"@liskhq/lisk-codec@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-codec/-/lisk-codec-0.1.0.tgz#deea355d1dcbf83432f213a57c4df087b45f091d"
+  integrity sha512-VM5aF23JoLDuRI6pJ76QN3UymcxT6isgfRTtdD0DkUzoYkB1VrM2TvrmJenF7FRApJc0bCh/cGBtVKDTLyto5g==
   dependencies:
-    "@liskhq/lisk-utils" "^0.1.0-debug.3"
-    "@liskhq/lisk-validator" "^0.5.0-debug.3"
+    "@liskhq/lisk-utils" "^0.1.0"
+    "@liskhq/lisk-validator" "^0.5.0"
 
-"@liskhq/lisk-cryptography@^3.0.0-alpha.0", "@liskhq/lisk-cryptography@^3.0.0-debug.3":
-  version "3.0.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-cryptography/-/lisk-cryptography-3.0.0-debug.3.tgz#7e11a1fcab60cd53f688dba3e5639209a2683244"
-  integrity sha512-Toh4hDKoH1Fv4rr963PKhzCTiIUspqj2YL8mbF/RjksPsadcWz2oCxDaUH+wfugiLCDca2gokQ/PV+PJn5K+ww==
+"@liskhq/lisk-cryptography@^3.0.0":
+  version "3.0.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-cryptography/-/lisk-cryptography-3.0.0.tgz#04a18d03f2b4d75e0a3f05c84890764f476bb8d4"
+  integrity sha512-eJqfHJjyZX7lRWFFHig3Y8e6oq4ineuEFj79OZjyLGn5KGyWCaYNdA2/enG1fdku8u6PC6prpQ3X9ew+gKTAeA==
   dependencies:
     buffer-reverse "1.0.1"
     ed2curve "0.3.0"
     tweetnacl "1.0.3"
     varuint-bitcoin "1.1.2"
   optionalDependencies:
-    sodium-native "2.4.6"
+    sodium-native "3.2.0"
 
-"@liskhq/lisk-passphrase@^3.0.1-alpha.0":
+"@liskhq/lisk-passphrase@^3.0.1":
   version "3.0.1"
   resolved "https://npm.lisk.io/@liskhq%2flisk-passphrase/-/lisk-passphrase-3.0.1.tgz#5be5ba4a12cd8597908b4afd8ced8b7c2dc1104a"
   integrity sha512-x6gh0nA+cM9ldNaTG34fpyIGR3to0LJF1AKKElizrv0wesKO3+nIGssXY+HrPkXxreoUa/Ktid8LmDiSr3h2/w==
   dependencies:
     bip39 "3.0.2"
 
-"@liskhq/lisk-transactions@^5.0.0-debug.3":
-  version "5.0.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-transactions/-/lisk-transactions-5.0.0-debug.3.tgz#74c45b6c35d086309dbc90c4c45589daf914b020"
-  integrity sha512-SxbgJhvUQPmu8A9e/q5Pej1cwtKARh9yvO5/HFU3hN0VpkEQ3wjcToFJXXrJzja4E51Srh1MqhbkHMl/HFWknQ==
+"@liskhq/lisk-transactions@^5.0.0":
+  version "5.0.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-transactions/-/lisk-transactions-5.0.0.tgz#140ecdacbf8a4d4cdc0f06597a0bd37b8b01f0f7"
+  integrity sha512-+XZBxXfAcl4q5/B59cYQIvO1WJpBO9C0ku1UNRfCwEkWAsMqXDzT7Nl6N1BN8axk9ZOOTezmsEwUNTcIhBtKMg==
   dependencies:
-    "@liskhq/lisk-codec" "^0.1.0-debug.3"
-    "@liskhq/lisk-cryptography" "^3.0.0-debug.3"
-    "@liskhq/lisk-validator" "^0.5.0-debug.3"
+    "@liskhq/lisk-codec" "^0.1.0"
+    "@liskhq/lisk-cryptography" "^3.0.0"
+    "@liskhq/lisk-validator" "^0.5.0"
 
-"@liskhq/lisk-tree@^0.1.0-alpha.0":
-  version "0.1.0-alpha.0"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-tree/-/lisk-tree-0.1.0-alpha.0.tgz#e55dce0bcfbfa47026c1492d9ae1397341b20d1f"
-  integrity sha512-CcAjRUD8/F6FTjID7dPZiQxieSkNgjWPCrYP4O9vyKWN3bbJZChKtcagQpTFecOzEbTxQPbY8DRQwOh0oxcjDA==
+"@liskhq/lisk-tree@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-tree/-/lisk-tree-0.1.0.tgz#ff3ade2496df8ca10528746414c10cfc2452860b"
+  integrity sha512-iZeikyaEdHPw9tCbQKiwUkCfp1I9TpVmposZqhs996I+Bx3nrMsOwwWAXtHGoAb+Wn0QTjd+FEV6k0Zr1Uj3cg==
   dependencies:
-    "@liskhq/lisk-cryptography" "^3.0.0-alpha.0"
-    "@liskhq/lisk-utils" "^0.1.0-alpha.0"
+    "@liskhq/lisk-cryptography" "^3.0.0"
+    "@liskhq/lisk-utils" "^0.1.0"
 
-"@liskhq/lisk-utils@^0.1.0-alpha.0", "@liskhq/lisk-utils@^0.1.0-debug.3":
-  version "0.1.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-utils/-/lisk-utils-0.1.0-debug.3.tgz#50057d524b4dd242e8f9e69cf1baaa79b03b9479"
-  integrity sha512-/aj0H4a3WyGEUwN/i1X6M11BmbJ09OZUWPitH9IlnEe2s3TpBd9oGKowQCV98v58I/CF/w2YabQiZtfNQg4uKg==
+"@liskhq/lisk-utils@^0.1.0":
+  version "0.1.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-utils/-/lisk-utils-0.1.0.tgz#b8f31e0bde5a8d0bf2bee9f6f7e6b9bfe2cd45b0"
+  integrity sha512-PR36Rxk6Nhg8Z6vvEIOpbeTuISaw23It6WhVyxEibH2RN2UPpUwDWR60BcIqZtR1FCK5vEcDMTvBXu1FgawbdA==
   dependencies:
     lodash.clonedeep "4.5.0"
 
-"@liskhq/lisk-validator@^0.5.0-debug.3":
-  version "0.5.0-debug.3"
-  resolved "https://npm.lisk.io/@liskhq%2flisk-validator/-/lisk-validator-0.5.0-debug.3.tgz#2c18b2f79e5da3b4060809a9df6f5c870a052595"
-  integrity sha512-4gw2FgAKyUhMrba5hnQ/8gZ5+f1SIVkg0qmjwkKG2MzVnbuQLmlgN2KPqiJ/j4tdf9ITuJfgtXXD5Okp9Y204w==
+"@liskhq/lisk-validator@^0.5.0":
+  version "0.5.0"
+  resolved "https://npm.lisk.io/@liskhq%2flisk-validator/-/lisk-validator-0.5.0.tgz#59eb75d13578223e5524683b0e0c7116453eec48"
+  integrity sha512-V3WlzR3ASs/y4fhZ6FB2DGeUCNJwwH6KiqNBjMsR3LAUhbx5GsSTa+DeqcCSrjhhjTPxHN4lycxcIJn0M/ipSw==
   dependencies:
-    "@liskhq/lisk-cryptography" "^3.0.0-debug.3"
+    "@liskhq/lisk-cryptography" "^3.0.0"
     "@types/node" "12.12.11"
     "@types/semver" "7.1.0"
     "@types/validator" "12.0.1"
@@ -374,6 +374,11 @@ array-back@^4.0.1:
   resolved "https://registry.yarnpkg.com/array-back/-/array-back-4.0.1.tgz#9b80312935a52062e1a233a9c7abeb5481b30e90"
   integrity sha512-Z/JnaVEXv+A9xabHzN43FiiiWEE7gPCRXMrVmRm00tWbjZRul1iHm7ECzlyNq1p4a4ATXz+G9FJ3GqGOkOV3fg==
 
+array-filter@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.lisk.io/array-filter/-/array-filter-1.0.0.tgz#baf79e62e6ef4c2a4c0b831232daffec251f9d83"
+  integrity sha1-uveeYubvTCpMC4MSMtr/7CUfnYM=
+
 asn1.js@^5.2.0:
   version "5.4.1"
   resolved "https://npm.lisk.io/asn1.js/-/asn1.js-5.4.1.tgz#11a980b84ebb91781ce35b0fdc2ee294e3783f07"
@@ -391,7 +396,14 @@ async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
-base64-js@^1.0.2:
+available-typed-arrays@^1.0.2:
+  version "1.0.2"
+  resolved "https://npm.lisk.io/available-typed-arrays/-/available-typed-arrays-1.0.2.tgz#6b098ca9d8039079ee3f77f7b783c4480ba513f5"
+  integrity sha512-XWX3OX8Onv97LMk/ftVyBibpGwY5a8SmuxZPzeOxqmuEqUCOM9ZE+uIaD1VNJ5QnvU2UQusvmKbuM1FR8QWGfQ==
+  dependencies:
+    array-filter "^1.0.0"
+
+base64-js@^1.3.1:
   version "1.5.1"
   resolved "https://npm.lisk.io/base64-js/-/base64-js-1.5.1.tgz#1b1b440160a5bf7ad40b650f095963481903930a"
   integrity sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==
@@ -506,12 +518,21 @@ buffer-xor@^1.0.3:
   resolved "https://npm.lisk.io/buffer-xor/-/buffer-xor-1.0.3.tgz#26e61ed1422fb70dd42e6e36729ed51d855fe8d9"
   integrity sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk=
 
-buffer@liskHQ/buffer#4d498e6:
-  version "5.6.0"
-  resolved "https://codeload.github.com/liskHQ/buffer/tar.gz/4d498e6acd7f2a20073b10d31961b86c6be530b8"
+buffer@6.0.3:
+  version "6.0.3"
+  resolved "https://npm.lisk.io/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6"
+  integrity sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==
   dependencies:
-    base64-js "^1.0.2"
-    ieee754 "^1.1.4"
+    base64-js "^1.3.1"
+    ieee754 "^1.2.1"
+
+call-bind@^1.0.0:
+  version "1.0.0"
+  resolved "https://npm.lisk.io/call-bind/-/call-bind-1.0.0.tgz#24127054bb3f9bdcb4b1fb82418186072f77b8ce"
+  integrity sha512-AEXsYIyyDY3MCzbwdhzG3Jx1R0J2wetQyUynn6dYHAO+bg8l1k7jwZtRv4ryryFs7EP+NDlikJlVe59jr0cM2w==
+  dependencies:
+    function-bind "^1.1.1"
+    get-intrinsic "^1.0.0"
 
 caniuse-lite@^1.0.30001157:
   version "1.0.30001159"
@@ -672,6 +693,13 @@ deep-extend@~0.6.0:
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.6.0.tgz#c4fa7c95404a17a9c3e8ca7e1537312b736330ac"
   integrity sha512-LOHxIOaPYdHlJRtCQfDIVZtfw/ufM8+rVj649RIHzcm/vGwQRXFt6OPqIFWsm2XEMrNIEtWR64sY1LEKD2vAOA==
 
+define-properties@^1.1.3:
+  version "1.1.3"
+  resolved "https://npm.lisk.io/define-properties/-/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
+  integrity sha512-3MqfYKj2lLzdMSf8ZIZE/V+Zuy+BgD6f164e8K2w7dgnpKArBDerGYpM46IYYcjnkdPNMjPk9A6VFB8+3SKlXQ==
+  dependencies:
+    object-keys "^1.0.12"
+
 des.js@^1.0.0:
   version "1.0.1"
   resolved "https://npm.lisk.io/des.js/-/des.js-1.0.1.tgz#5382142e1bdc53f85d86d53e5f4aa7deb91e0843"
@@ -750,6 +778,33 @@ envinfo@^7.7.3:
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.7.3.tgz#4b2d8622e3e7366afb8091b23ed95569ea0208cc"
   integrity sha512-46+j5QxbPWza0PB1i15nZx0xQ4I/EfQxg9J8Had3b408SV63nEtor2e+oiY63amTo9KTuh2a3XLObNwduxYwwA==
+
+es-abstract@^1.18.0-next.1:
+  version "1.18.0-next.1"
+  resolved "https://npm.lisk.io/es-abstract/-/es-abstract-1.18.0-next.1.tgz#6e3a0a4bda717e5023ab3b8e90bec36108d22c68"
+  integrity sha512-I4UGspA0wpZXWENrdA0uHbnhte683t3qT/1VFH9aX2dA5PPSf6QW5HHXf5HImaqPmjXaVeVk4RGWnaylmV7uAA==
+  dependencies:
+    es-to-primitive "^1.2.1"
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
+    is-callable "^1.2.2"
+    is-negative-zero "^2.0.0"
+    is-regex "^1.1.1"
+    object-inspect "^1.8.0"
+    object-keys "^1.1.1"
+    object.assign "^4.1.1"
+    string.prototype.trimend "^1.0.1"
+    string.prototype.trimstart "^1.0.1"
+
+es-to-primitive@^1.2.1:
+  version "1.2.1"
+  resolved "https://npm.lisk.io/es-to-primitive/-/es-to-primitive-1.2.1.tgz#e55cd4c9cdc188bcefb03b366c736323fc5c898a"
+  integrity sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==
+  dependencies:
+    is-callable "^1.1.4"
+    is-date-object "^1.0.1"
+    is-symbol "^1.0.2"
 
 escalade@^3.1.1:
   version "3.1.1"
@@ -847,10 +902,24 @@ follow-redirects@^1.0.0:
   resolved "https://npm.lisk.io/follow-redirects/-/follow-redirects-1.13.0.tgz#b42e8d93a2a7eea5ed88633676d6597bc8e384db"
   integrity sha512-aq6gF1BEKje4a9i9+5jimNFIpq4Q1WiwBToeRK5NvZBd/TRsmW8BsJfOEGkr76TbOyPVD3OVDN910EcUNtRYEA==
 
+foreach@^2.0.5:
+  version "2.0.5"
+  resolved "https://npm.lisk.io/foreach/-/foreach-2.0.5.tgz#0bee005018aeb260d0a3af3ae658dd0136ec1b99"
+  integrity sha1-C+4AUBiusmDQo6865ljdATbsG5k=
+
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
   integrity sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A==
+
+get-intrinsic@^1.0.0:
+  version "1.0.1"
+  resolved "https://npm.lisk.io/get-intrinsic/-/get-intrinsic-1.0.1.tgz#94a9768fcbdd0595a1c9273aacf4c89d075631be"
+  integrity sha512-ZnWP+AmS1VUaLgTRy47+zKtjTxz+0xMpx3I52i+aalBK1QP19ggLF3Db89KJX7kjfOfP2eoa01qc++GwPgufPg==
+  dependencies:
+    function-bind "^1.1.1"
+    has "^1.0.3"
+    has-symbols "^1.0.1"
 
 get-stream@^5.0.0:
   version "5.2.0"
@@ -878,6 +947,11 @@ has-flag@^4.0.0:
   version "4.0.0"
   resolved "https://npm.lisk.io/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
+
+has-symbols@^1.0.1:
+  version "1.0.1"
+  resolved "https://npm.lisk.io/has-symbols/-/has-symbols-1.0.1.tgz#9f5214758a44196c406d9bd76cebf81ec2dd31e8"
+  integrity sha512-PLcsoqu++dmEIZB+6totNFKq/7Do+Z0u4oT0zKOJNl3lYK6vGwwu2hjHs+68OEZbTjiUE9bgOABXbP/GvrS0Kg==
 
 has@^1.0.3:
   version "1.0.3"
@@ -947,7 +1021,7 @@ human-signals@^1.1.1:
   resolved "https://registry.yarnpkg.com/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
   integrity sha512-SEQu7vl8KjNL2eoGBLF3+wAjpsNfA9XMlXAYj/3EdaNfAlxKthD1xjEQfGOUhllCGGJVNY34bRr6lPINhNjyZw==
 
-ieee754@^1.1.4:
+ieee754@^1.2.1:
   version "1.2.1"
   resolved "https://npm.lisk.io/ieee754/-/ieee754-1.2.1.tgz#8eb7a10a63fff25d15a57b001586d177d1b0d352"
   integrity sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==
@@ -975,6 +1049,18 @@ interpret@^2.2.0:
   resolved "https://registry.yarnpkg.com/interpret/-/interpret-2.2.0.tgz#1a78a0b5965c40a5416d007ad6f50ad27c417df9"
   integrity sha512-Ju0Bz/cEia55xDwUWEa8+olFpCiQoypjnQySseKtmjNrnps3P+xfpUmGr90T7yjlVJmOtybRvPXhKMbHr+fWnw==
 
+is-arguments@^1.0.4:
+  version "1.1.0"
+  resolved "https://npm.lisk.io/is-arguments/-/is-arguments-1.1.0.tgz#62353031dfbee07ceb34656a6bde59efecae8dd9"
+  integrity sha512-1Ij4lOMPl/xB5kBDn7I+b2ttPMKa8szhEIrXDuXQD/oe3HJLTLhqhgGspwgyGd6MOywBUqVvYicF72lkgDnIHg==
+  dependencies:
+    call-bind "^1.0.0"
+
+is-callable@^1.1.4, is-callable@^1.2.2:
+  version "1.2.2"
+  resolved "https://npm.lisk.io/is-callable/-/is-callable-1.2.2.tgz#c7c6715cd22d4ddb48d3e19970223aceabb080d9"
+  integrity sha512-dnMqspv5nU3LoewK2N/y7KLtxtakvTuaCsU9FU50/QDmdbHNy/4/JuRtMHqRU22o3q+W89YQndQEeCVwK+3qrA==
+
 is-core-module@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/is-core-module/-/is-core-module-2.1.0.tgz#a4cc031d9b1aca63eecbd18a650e13cb4eeab946"
@@ -982,10 +1068,50 @@ is-core-module@^2.1.0:
   dependencies:
     has "^1.0.3"
 
+is-date-object@^1.0.1:
+  version "1.0.2"
+  resolved "https://npm.lisk.io/is-date-object/-/is-date-object-1.0.2.tgz#bda736f2cd8fd06d32844e7743bfa7494c3bfd7e"
+  integrity sha512-USlDT524woQ08aoZFzh3/Z6ch9Y/EWXEHQ/AaRN0SkKq4t2Jw2R2339tSXmwuVoY7LLlBCbOIlx2myP/L5zk0g==
+
+is-generator-function@^1.0.7:
+  version "1.0.8"
+  resolved "https://npm.lisk.io/is-generator-function/-/is-generator-function-1.0.8.tgz#dfb5c2b120e02b0a8d9d2c6806cd5621aa922f7b"
+  integrity sha512-2Omr/twNtufVZFr1GhxjOMFPAj2sjc/dKaIqBhvo4qciXfJmITGH6ZGd8eZYNHza8t1y0e01AuqRhJwfWp26WQ==
+
+is-negative-zero@^2.0.0:
+  version "2.0.1"
+  resolved "https://npm.lisk.io/is-negative-zero/-/is-negative-zero-2.0.1.tgz#3de746c18dda2319241a53675908d8f766f11c24"
+  integrity sha512-2z6JzQvZRa9A2Y7xC6dQQm4FSTSTNWjKIYYTt4246eMTJmIo0Q+ZyOsU66X8lxK1AbB92dFeglPLrhwpeRKO6w==
+
+is-regex@^1.1.1:
+  version "1.1.1"
+  resolved "https://npm.lisk.io/is-regex/-/is-regex-1.1.1.tgz#c6f98aacc546f6cec5468a07b7b153ab564a57b9"
+  integrity sha512-1+QkEcxiLlB7VEyFtyBg94e08OAsvq7FUBgApTq/w2ymCLyKJgDPsybBENVtA7XCQEgEXxKPonG+mvYRxh/LIg==
+  dependencies:
+    has-symbols "^1.0.1"
+
 is-stream@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-stream/-/is-stream-2.0.0.tgz#bde9c32680d6fae04129d6ac9d921ce7815f78e3"
   integrity sha512-XCoy+WlUr7d1+Z8GgSuXmpuUFC9fOhRXglJMx+dwLKTkL44Cjd4W1Z5P+BQZpr+cR93aGP4S/s7Ftw6Nd/kiEw==
+
+is-symbol@^1.0.2:
+  version "1.0.3"
+  resolved "https://npm.lisk.io/is-symbol/-/is-symbol-1.0.3.tgz#38e1014b9e6329be0de9d24a414fd7441ec61937"
+  integrity sha512-OwijhaRSgqvhm/0ZdAcXNZt9lYdKFpcRDT5ULUuYXPoT794UNOdU+gpT6Rzo7b4V2HUl/op6GqY894AZwv9faQ==
+  dependencies:
+    has-symbols "^1.0.1"
+
+is-typed-array@^1.1.3:
+  version "1.1.4"
+  resolved "https://npm.lisk.io/is-typed-array/-/is-typed-array-1.1.4.tgz#1f66f34a283a3c94a4335434661ca53fff801120"
+  integrity sha512-ILaRgn4zaSrVNXNGtON6iFNotXW3hAPF3+0fB1usg2jFlWqo5fEDdmJkz0zBfoi7Dgskr8Khi2xZ8cXqZEfXNA==
+  dependencies:
+    available-typed-arrays "^1.0.2"
+    call-bind "^1.0.0"
+    es-abstract "^1.18.0-next.1"
+    foreach "^2.0.5"
+    has-symbols "^1.0.1"
 
 isexe@^2.0.0:
   version "2.0.0"
@@ -1114,17 +1240,12 @@ ms@2.1.2, ms@^2.1.1:
   resolved "https://npm.lisk.io/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
   integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
 
-nan@^2.14.0:
-  version "2.14.2"
-  resolved "https://npm.lisk.io/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
-  integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
-
 neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://npm.lisk.io/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
-node-gyp-build@^4.1.0:
+node-gyp-build@^4.2.0:
   version "4.2.3"
   resolved "https://npm.lisk.io/node-gyp-build/-/node-gyp-build-4.2.3.tgz#ce6277f853835f718829efb47db20f3e4d9c4739"
   integrity sha512-MN6ZpzmfNCRM+3t57PTJHgHyw/h4OWnZ6mR8P5j/uZtqQr46RRuDE/P+g3n0YR/AiYXeWixZZzaip77gdICfRg==
@@ -1140,6 +1261,26 @@ npm-run-path@^4.0.0:
   integrity sha512-S48WzZW777zhNIrn7gxOlISNAqi9ZC/uQFnRdbeIHhZhCA6UqpkOT8T1G7BvfdgP4Er8gF4sUbaS0i7QvIfCWw==
   dependencies:
     path-key "^3.0.0"
+
+object-inspect@^1.8.0:
+  version "1.9.0"
+  resolved "https://npm.lisk.io/object-inspect/-/object-inspect-1.9.0.tgz#c90521d74e1127b67266ded3394ad6116986533a"
+  integrity sha512-i3Bp9iTqwhaLZBxGkRfo5ZbE07BQRT7MGu8+nNgwW9ItGp1TzCTw2DLEoWwjClxBjOFI/hWljTAmYGCEwmtnOw==
+
+object-keys@^1.0.12, object-keys@^1.1.1:
+  version "1.1.1"
+  resolved "https://npm.lisk.io/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
+  integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+
+object.assign@^4.1.1:
+  version "4.1.2"
+  resolved "https://npm.lisk.io/object.assign/-/object.assign-4.1.2.tgz#0ed54a342eceb37b38ff76eb831a0e788cb63940"
+  integrity sha512-ixT2L5THXsApyiUPYKmW+2EHpXXe5Ii3M+f4e+aJFAHao5amFRW6J0OO6c/LU8Be47utCx2GL89hxGB6XSmKuQ==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+    has-symbols "^1.0.1"
+    object-keys "^1.1.1"
 
 once@^1.3.1, once@^1.4.0:
   version "1.4.0"
@@ -1291,6 +1432,11 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
+punycode@1.3.2:
+  version "1.3.2"
+  resolved "https://npm.lisk.io/punycode/-/punycode-1.3.2.tgz#9653a036fb7c1ee42342f2325cceefea3926c48d"
+  integrity sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0=
+
 punycode@^2.1.0:
   version "2.1.1"
   resolved "https://npm.lisk.io/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
@@ -1300,6 +1446,16 @@ qs@^6.4.0:
   version "6.9.4"
   resolved "https://npm.lisk.io/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
   integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
+
+querystring-es3@^0.2.1:
+  version "0.2.1"
+  resolved "https://npm.lisk.io/querystring-es3/-/querystring-es3-0.2.1.tgz#9ec61f79049875707d69414596fd907a4d711e73"
+  integrity sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM=
+
+querystring@0.2.0:
+  version "0.2.0"
+  resolved "https://npm.lisk.io/querystring/-/querystring-0.2.0.tgz#b209849203bb25df820da756e747005878521620"
+  integrity sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA=
 
 randombytes@^2.0.0, randombytes@^2.0.1, randombytes@^2.0.5, randombytes@^2.1.0:
   version "2.1.0"
@@ -1431,14 +1587,13 @@ signal-exit@^3.0.2:
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
 
-sodium-native@2.4.6:
-  version "2.4.6"
-  resolved "https://npm.lisk.io/sodium-native/-/sodium-native-2.4.6.tgz#8a8173095e8cf4f997de393a2ba106c34870cac2"
-  integrity sha512-Ro9lhTjot8M01nwKLXiqLSmjR7B8o+Wg4HmJUjEShw/q6XPlNMzjPkA1VJKaMH8SO8fJ/sggAKVwreTaFszS2Q==
+sodium-native@3.2.0:
+  version "3.2.0"
+  resolved "https://npm.lisk.io/sodium-native/-/sodium-native-3.2.0.tgz#68a9469b96edadffef320cbce51294ad5f72a37f"
+  integrity sha512-8aq/vQSegLwsRch8Sb/Bpf9aAqlNe5dp0+NVhb9UjHv42zDZ0D5zX3wBRUbXK9Ejum9uZE6DUgT4vVLlUFRBWg==
   dependencies:
     ini "^1.3.5"
-    nan "^2.14.0"
-    node-gyp-build "^4.1.0"
+    node-gyp-build "^4.2.0"
 
 source-list-map@^2.0.1:
   version "2.0.1"
@@ -1470,6 +1625,22 @@ stream-browserify@^3.0.0:
   dependencies:
     inherits "~2.0.4"
     readable-stream "^3.5.0"
+
+string.prototype.trimend@^1.0.1:
+  version "1.0.3"
+  resolved "https://npm.lisk.io/string.prototype.trimend/-/string.prototype.trimend-1.0.3.tgz#a22bd53cca5c7cf44d7c9d5c732118873d6cd18b"
+  integrity sha512-ayH0pB+uf0U28CtjlLvL7NaohvR1amUvVZk+y3DYb0Ey2PUV5zPkkKy9+U1ndVEIXO8hNg18eIv9Jntbii+dKw==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
+
+string.prototype.trimstart@^1.0.1:
+  version "1.0.3"
+  resolved "https://npm.lisk.io/string.prototype.trimstart/-/string.prototype.trimstart-1.0.3.tgz#9b4cb590e123bb36564401d59824298de50fd5aa"
+  integrity sha512-oBIBUy5lea5tt0ovtOFiEQaBkoBBkyJhZXzJYrSmDo5IUUqbOPvVezuRs/agBIdZ2p2Eo1FD6bD9USyBLfl3xg==
+  dependencies:
+    call-bind "^1.0.0"
+    define-properties "^1.1.3"
 
 string_decoder@^1.1.1:
   version "1.3.0"
@@ -1567,10 +1738,30 @@ url-join@^2.0.5:
   resolved "https://npm.lisk.io/url-join/-/url-join-2.0.5.tgz#5af22f18c052a000a48d7b82c5e9c2e2feeda728"
   integrity sha1-WvIvGMBSoACkjXuCxenC4v7tpyg=
 
+url@^0.11.0:
+  version "0.11.0"
+  resolved "https://npm.lisk.io/url/-/url-0.11.0.tgz#3838e97cfc60521eb73c525a8e55bfdd9e2e28f1"
+  integrity sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE=
+  dependencies:
+    punycode "1.3.2"
+    querystring "0.2.0"
+
 util-deprecate@^1.0.1:
   version "1.0.2"
   resolved "https://npm.lisk.io/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+
+util@^0.12.3:
+  version "0.12.3"
+  resolved "https://npm.lisk.io/util/-/util-0.12.3.tgz#971bb0292d2cc0c892dab7c6a5d37c2bec707888"
+  integrity sha512-I8XkoQwE+fPQEhy9v012V+TSdH2kp9ts29i20TaaDUXsg7x/onePbhFJUExBfv/2ay1ZOp/Vsm3nDlmnFGSAog==
+  dependencies:
+    inherits "^2.0.3"
+    is-arguments "^1.0.4"
+    is-generator-function "^1.0.7"
+    is-typed-array "^1.1.3"
+    safe-buffer "^5.1.2"
+    which-typed-array "^1.1.2"
 
 v8-compile-cache@^2.2.0:
   version "2.2.0"
@@ -1660,6 +1851,19 @@ webpack@^5.5.1:
     terser-webpack-plugin "^5.0.3"
     watchpack "^2.0.0"
     webpack-sources "^2.1.1"
+
+which-typed-array@^1.1.2:
+  version "1.1.4"
+  resolved "https://npm.lisk.io/which-typed-array/-/which-typed-array-1.1.4.tgz#8fcb7d3ee5adf2d771066fba7cf37e32fe8711ff"
+  integrity sha512-49E0SpUe90cjpoc7BOJwyPHRqSAd12c10Qm2amdEZrJPCY2NDxaW01zHITrem+rnETY3dwrbH3UUrUwagfCYDA==
+  dependencies:
+    available-typed-arrays "^1.0.2"
+    call-bind "^1.0.0"
+    es-abstract "^1.18.0-next.1"
+    foreach "^2.0.5"
+    function-bind "^1.1.1"
+    has-symbols "^1.0.1"
+    is-typed-array "^1.1.3"
 
 which@^2.0.1:
   version "2.0.2"

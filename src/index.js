@@ -1,4 +1,4 @@
-import { cryptography } from '@liskhq/lisk-client';
+import { cryptography, apiClient } from '@liskhq/lisk-client';
 
 
 const {getRandomBytes, getAddressFromPublicKey, getPrivateAndPublicKeyFromPassphrase, getBase32AddressFromAddress} = cryptography;
@@ -14,3 +14,18 @@ bigIntBuffer.writeBigUInt64BE(BigInt(40));
 const bigIntVal = bigIntBuffer.readBigUInt64BE();
 
 console.log({bigIntBuffer, bigIntVal})
+
+const {createWSClient} = apiClient;
+
+const run = async() => {
+  const client = await createWSClient('ws://localhost:8888/ws');
+
+  const info =  await client.node.getNodeInfo();
+  console.log(info);
+
+  client.subscribe('app:block:new', block => {
+    console.info(client.block.decode(Buffer.from(block.block, 'hex')));
+  });
+};
+
+run().then(console.info).catch(console.error);
